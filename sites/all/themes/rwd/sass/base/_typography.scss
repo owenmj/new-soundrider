@@ -1,0 +1,96 @@
+@import "compass/css3/deprecated-support";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+p, pre{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+h3 {
+	font-size: 0.83em;
+	margin: 2.5em 2% 0em;
+}
+
+.node__content h3{
+	font-size: 1em;
+	margin: 2.5em 2% 0em;
+	color: #9f5d41;
+}
+
+.page-node-35 .node__content h3{
+	font-size: 1.1em;
+	margin: 2.5em 2% 1em;
+	color:#000;
+}
+
+.map h3{
+    font-size: 1.2em;
+	text-align:center;
+	color: #9f5d41;
+	margin-bottom:1em;
+}
+
+@include breakpoint($tab,true) {
+    
+
+    h3 {
+	font-size: 1.2em;
+	margin: 2.5em 2% 0em;
+    }
+
+    .node__content h3{
+	   font-size: 1.5em;
+	   margin: 2.5em 2% 0em;
+	   color: #9f5d41;
+    }
+
+	.page-node-35 .node__content h3{
+	   font-size: 1.5em;
+	   margin: 2.5em 2% 1em;
+	   color:#000;
+	}
+
+	.map h3{
+       font-size: 1.5em;
+	   text-align:center;
+	   color: #9f5d41;
+	   margin-bottom:1em;
+	}
+
+}
+
+@include breakpoint($desk,true) {
+   
+
+    h3 {
+	font-size: 1.5em;
+	margin: 2.5em 2% 0em;
+	}
+
+	.node__content h3{
+	font-size: 1.8em;
+	margin: 2.5em 2% 0em;
+	color: #9f5d41;
+	}
+
+	.page-node-35 .node__content h3{
+	font-size: 1.8em;
+	margin: 2.5em 2% 1em;
+	color:#000;
+	}
+
+	.map h3{
+    font-size: 2em;
+	text-align:center;
+	color: #9f5d41;
+	margin-bottom:1em;
+	}
+
+}
