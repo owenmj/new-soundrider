@@ -59,10 +59,6 @@ ul.breadcrumb {
   display:none;
 }
 
-.l-region--sidebar-second {
-    display:none;
-}
-
 .field--name-body p {
    margin: 1% 2%;
    font-size: 1.1em;
@@ -93,7 +89,6 @@ ul.breadcrumb {
   margin-top: auto;
   margin-left: auto;
 }
-
 
 @include breakpoint($tab,true){
   
