@@ -49,9 +49,9 @@
   height: 20em;
 }
 
-// Tide Mill - tablet and desk only
+// Home Image - tablet and desk only
     body.front .block--block-39{
-      display:none;
+      // display:none;
     }   
 h1{
   margin: auto;
@@ -85,6 +85,10 @@ ul.breadcrumb{
    }
     */
 
+    body.front .block--block-39{
+      display:none;
+    } 
+    
   .l-content-home{
     background-color: #fce7ca;
     height: 22em;
