@@ -84,12 +84,6 @@ ul.breadcrumb {
     height:100%;    
 }
 
-.picnic-flyer img{
-  display:block;
-  margin-top: auto;
-  margin-left: auto;
-}
-
 @include breakpoint($tab,true){
   
   .field--name-body p {
