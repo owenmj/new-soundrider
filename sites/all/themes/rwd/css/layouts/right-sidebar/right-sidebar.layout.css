@@ -151,12 +151,13 @@ h3 {
     clear: both; }
 
 /* line 34, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
-.block--block-38 {
+.banner {
   max-width: 100%;
   display: block;
-  margin: 0em; }
+  margin: 0em;
+  float: left; }
 
-/* line 40, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 41, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-main {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -172,7 +173,7 @@ h3 {
   .l-main:after {
     clear: both; }
 
-/* line 44, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 45, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-content {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -188,7 +189,16 @@ h3 {
   .l-content:after {
     clear: both; }
 
-/* line 48, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 51, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+.main-menu {
+  float: left;
+  margin-left: -19.9em; }
+
+/* line 56, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+.main-menu li a {
+  color: #fff; }
+
+/* line 62, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 h1 {
   margin: auto;
   text-align: center;
@@ -198,20 +208,20 @@ h1 {
   height: 1.8em;
   padding: 0.5em; }
 
-/* line 58, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 72, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 ul.breadcrumb {
   display: none; }
 
-/* line 62, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 76, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .field--name-body p {
   margin: 1% 2%;
   font-size: 1.1em; }
 
-/* line 67, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 81, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .footer p {
   margin: 1% 2%; }
 
-/* line 71, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 85, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .video-container, .map-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -219,7 +229,7 @@ ul.breadcrumb {
   height: 0;
   overflow: hidden; }
 
-/* line 79, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 93, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .video-container iframe, .map-container iframe {
   position: absolute;
   top: 0;
@@ -228,16 +238,16 @@ ul.breadcrumb {
   height: 100%; }
 
 @media (min-width: 44em) {
-  /* line 89, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 103, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .field--name-body p {
     margin: 1% 2%;
     font-size: 1.4em; }
 
-  /* line 94, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 108, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   body.front .l-region--branding img {
     display: none; }
 
-  /* line 98, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 112, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .l-content {
     width: 48.93617%;
     float: left;
@@ -245,7 +255,7 @@ ul.breadcrumb {
     margin-left: 0%;
     clear: none; }
 
-  /* line 102, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 116, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .l-region--sidebar-second {
     width: 48.93617%;
     float: right;
@@ -254,7 +264,7 @@ ul.breadcrumb {
     clear: none;
     display: block; } }
 @media (min-width: 70em) {
-  /* line 109, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 123, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .field--name-body p {
     margin: 1% 2%;
     font-size: 1.8em; } }

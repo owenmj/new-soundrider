@@ -31,10 +31,11 @@
 }
 
 // Banner is part of branding
-.block--block-38{
+.banner{
   max-width:100%;
   display:block;
   margin:0em;
+  float:left;
 }
 
 .l-main {
@@ -44,6 +45,19 @@
 .l-content {
   @include clearfix;
 }
+
+// Main menu
+ 
+ .main-menu{
+       float:left;
+       margin-left: -19.9em;
+  }
+
+ .main-menu li a{
+       color:#fff;
+  }
+
+
 
 h1{
   margin:auto;

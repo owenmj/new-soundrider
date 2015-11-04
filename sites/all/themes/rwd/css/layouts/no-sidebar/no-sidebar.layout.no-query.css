@@ -259,13 +259,23 @@ h3 {
   .l-branding:after {
     clear: both; }
 
-/* line 33, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
-.block--block-38 {
+/* line 34, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.home-page-image {
   max-width: 100%;
   display: block;
-  margin: 0em; }
+  margin: 0em;
+  float: left; }
 
-/* line 39, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 43, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.main-menu {
+  float: left;
+  margin-left: -19.9em; }
+
+/* line 48, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.main-menu li a {
+  color: #fff; }
+
+/* line 52, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-main {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -281,7 +291,7 @@ h3 {
   .l-main:after {
     clear: both; }
 
-/* line 43, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 56, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-content {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -297,12 +307,19 @@ h3 {
   .l-content:after {
     clear: both; }
 
-/* line 47, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
-.l-content-home {
-  background-color: #fce7ca;
-  height: 20em; }
+/* line 62, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.home-content {
+  float: left;
+  width: 40em;
+  margin-left: 1em;
+  margin-top: -30em;
+  color: #fff; }
 
-/* line 56, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 70, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.l-region--branding {
+  clear: both; }
+
+/* line 74, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 h1 {
   margin: auto;
   text-align: center;
@@ -312,17 +329,17 @@ h1 {
   height: 1.8em;
   padding: 0.5em; }
 
-/* line 66, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 84, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 ul.breadcrumb {
   display: none; }
 
-/* line 70, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 88, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 0.9em;
   line-height: 1.2; }
 
-/* line 76, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 94, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .footer p {
   margin: 0% 5%; }
 
@@ -331,30 +348,30 @@ ul.breadcrumb {
    @include grid-span(12,1);
 }
  */
-/* line 88, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 106, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 body.front .block--block-39 {
   display: none; }
 
-/* line 92, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 110, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-content-home {
   background-color: #fce7ca;
   height: 22em; }
 
-/* line 97, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 115, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 body.front .l-region--branding img {
   display: block; }
 
-/* line 101, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 119, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.2em;
   line-height: 1.2; }
 
-/* line 108, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 126, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 body.front .block--block-39 {
   display: block; }
 
-/* line 112, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 130, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .view-previous-meetings li.views-row {
   display: block;
   float: left;
@@ -387,13 +404,13 @@ body.front .block--block-39 {
  
 
  */
-/* line 149, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 167, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.8em;
   line-height: 1.2; }
 
-/* line 155, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 173, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-content-home {
   background-color: #fce7ca;
   height: 25em; }
