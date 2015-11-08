@@ -313,15 +313,16 @@ h3 {
   float: left;
   max-width: 100%;
   width: 40em;
-  margin-left: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   margin-top: -30em;
   color: #fff; }
 
-/* line 71, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 72, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-region--branding {
   clear: both; }
 
-/* line 75, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 76, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 h1 {
   margin: auto;
   text-align: center;
@@ -331,36 +332,36 @@ h1 {
   height: 1.8em;
   padding: 0.5em; }
 
-/* line 85, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 86, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 ul.breadcrumb {
   display: none; }
 
-/* line 89, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 90, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 0.9em;
   line-height: 1.2; }
 
-/* line 95, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 96, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .footer p {
   margin: 0% 5%; }
 
-/* line 101, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 102, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-content-home {
   background-color: #fce7ca;
   height: 22em; }
 
-/* line 106, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 107, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 body.front .l-region--branding img {
   display: block; }
 
-/* line 110, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 111, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.2em;
   line-height: 1.2; }
 
-/* line 119, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 120, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.8em;
