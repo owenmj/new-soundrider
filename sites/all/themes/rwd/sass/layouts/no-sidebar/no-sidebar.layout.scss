@@ -23,19 +23,19 @@
 
 // Branding is part of header
 .l-branding{
-  // margin:0em;
-  height: auto;
-  @include clearfix;
-  padding:0em;
+   // margin:0em;
+   height: auto;
+   @include clearfix;
+   padding:0em;
 }
-
 
 // Home page image is part of branding
 .home-page-image{
-  max-width:100%;
-  display:block;
-  margin:0em;
-  float:left;
+    max-width:100%;
+    display:block;
+    margin:0em;
+    float:left;
+    height: auto;
 }
 
 // Main menu
@@ -47,7 +47,7 @@
 
  .main-menu li a{
        color:#fff;
-  }
+ }
 
 .l-main{
    @include clearfix;
@@ -61,6 +61,7 @@
 
 .home-content{
   float:left;
+  max-width:100%;
   width: 40em;
   margin-left: 1em;
   margin-top: -30em;
@@ -97,82 +98,28 @@ ul.breadcrumb{
 
 @include breakpoint($tab,true) {
     
-    /*
-    .node--page{
-      @include grid-span(12,1);
-   }
-    */
+     .l-content-home{
+        background-color: #fce7ca;
+        height: 22em;
+     }
 
-    body.front .block--block-39{
-      display:none;
-    } 
-    
-  .l-content-home{
-    background-color: #fce7ca;
-    height: 22em;
+      body.front .l-region--branding img {
+        display: block;
+      }
+
+      .field--name-body p {
+        margin: 0% 5%;
+        font-size:1.2em;
+        line-height:1.2;
+      }    
   }
 
-   body.front .l-region--branding img {
-    display: block;
-   }
-
-  .field--name-body p {
-      margin: 0% 5%;
-      font-size:1.2em;
-      line-height:1.2;
-  }
-
-    // Tide Mill - tablet and desk only
-    body.front .block--block-39{
-      display:block;
-    }
-
-  .view-previous-meetings li.views-row {
-     display: block;
-     float: left;
-     padding:0px;
-     width: 250px;
-     margin-bottom: 11px;
-     text-decoration:none;
-     margin-left: 108px;
-    }     
-  }
-
-
-  /*
-  .view-previous-meetings .view-content  li.column {
-  width: 250px;
-  margin-left: 5px;
-  clear: left;  
-}
- 
- .view-press .view-content li.column span {
-   font-weight: bold;
-   font-size: 15px;
- }
- 
-  .view-press .view-content li span {
-   font-weight: bold;
-   font-size: 15px;
- }
- 
- .view-press  .views-field-field-press-image{
-   margin-top: 10px;
- }
- 
-
- */
  @include breakpoint ($desk, true){
 
- .field--name-body p {
-      margin: 0% 5%;
-      font-size:1.8em;
-      line-height:1.2;
-  }
-
-  .l-content-home{
-    background-color: #fce7ca;
-    height: 25em;
-  }
+     .field--name-body p {
+        margin: 0% 5%;
+        font-size:1.8em;
+        line-height:1.2;
+     }
  }
  

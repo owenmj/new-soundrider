@@ -61,28 +61,4 @@ h1 {
   color: #f68c59;
   border-bottom: 2px solid #f68c59; }
 
-/*
-.menu li {
-  display:inline; 
-  float:left;
-}
-
-.menu li a{
-  color:#3e85c6;
-  padding:6px 3px 4px 3px;
-  margin-right:20px;
-  text-decoration: none;
-  border-bottom: 2px solid #3e85c6;
-}
-
-.menu a:active{
-  color:#f68c59;
-}
-
-.menu li a:hover, .menu ul li a.selected{
-  color:#f68c59;
-  border-bottom: 2px solid #f68c59; 
-}
-*/
-
 /*# sourceMappingURL=rwd.styles.css.map */

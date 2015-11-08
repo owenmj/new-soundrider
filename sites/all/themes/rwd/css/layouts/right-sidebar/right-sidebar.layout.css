@@ -132,7 +132,7 @@ h3 {
     .l-page {
       width: 70em; } }
 
-/* line 26, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 25, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-branding {
   height: auto;
   /* for IE 6/7 */
@@ -150,14 +150,14 @@ h3 {
   .l-branding:after {
     clear: both; }
 
-/* line 34, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 32, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .banner {
   max-width: 100%;
   display: block;
   margin: 0em;
   float: left; }
 
-/* line 41, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 40, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-main {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -173,7 +173,7 @@ h3 {
   .l-main:after {
     clear: both; }
 
-/* line 45, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 44, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-content {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
@@ -189,21 +189,21 @@ h3 {
   .l-content:after {
     clear: both; }
 
-/* line 51, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 50, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .main-menu {
   float: left;
   margin-left: -19.9em; }
 
-/* line 56, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 55, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .main-menu li a {
   color: #fff; }
 
-/* line 60, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 59, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .page-node-37 .main-menu {
   float: left;
   margin-left: -19.9em; }
 
-/* line 65, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 64, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 h1 {
   margin: auto;
   text-align: center;
@@ -213,20 +213,20 @@ h1 {
   height: 1.8em;
   padding: 0.5em; }
 
-/* line 75, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 74, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 ul.breadcrumb {
   display: none; }
 
-/* line 79, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 78, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .field--name-body p {
   margin: 1% 2%;
   font-size: 1.1em; }
 
-/* line 84, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 83, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .footer p {
   margin: 1% 2%; }
 
-/* line 88, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 87, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .video-container, .map-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -234,7 +234,7 @@ ul.breadcrumb {
   height: 0;
   overflow: hidden; }
 
-/* line 96, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 95, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .video-container iframe, .map-container iframe {
   position: absolute;
   top: 0;
@@ -243,16 +243,16 @@ ul.breadcrumb {
   height: 100%; }
 
 @media (min-width: 44em) {
-  /* line 106, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 104, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .field--name-body p {
     margin: 1% 2%;
     font-size: 1.4em; }
 
-  /* line 111, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 109, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   body.front .l-region--branding img {
     display: none; }
 
-  /* line 115, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 113, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .l-content {
     width: 48.93617%;
     float: left;
@@ -260,7 +260,7 @@ ul.breadcrumb {
     margin-left: 0%;
     clear: none; }
 
-  /* line 119, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 117, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .l-region--sidebar-second {
     width: 48.93617%;
     float: right;
@@ -269,7 +269,7 @@ ul.breadcrumb {
     clear: none;
     display: block; } }
 @media (min-width: 70em) {
-  /* line 126, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+  /* line 124, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
   .field--name-body p {
     margin: 1% 2%;
     font-size: 1.8em; } }

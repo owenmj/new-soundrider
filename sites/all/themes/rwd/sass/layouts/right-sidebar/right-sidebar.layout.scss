@@ -16,7 +16,6 @@
   @include breakpoint($tab,true) {
     width:$tab;
   }
-
   @include breakpoint($desk,true) {
     width:$desk;
   }
@@ -30,7 +29,6 @@
   padding:0em;
 }
 
-// Banner is part of branding
 .banner{
   max-width:100%;
   display:block;
@@ -38,6 +36,7 @@
   float:left;
 }
 
+// Main content
 .l-main {
   @include clearfix;
 }
@@ -48,14 +47,14 @@
 
 // Main menu
  
- .main-menu{
-       float:left;
-       margin-left: -19.9em;
+.main-menu{
+    float:left;
+    margin-left: -19.9em;
   }
 
- .main-menu li a{
-       color:#fff;
-  }
+.main-menu li a{
+    color:#fff;
+}
 
 .page-node-37 .main-menu{
   float:left;
@@ -102,15 +101,14 @@ ul.breadcrumb {
 }
 
 @include breakpoint($tab,true){
-  
   .field--name-body p {
-   margin: 1% 2%;
-   font-size: 1.4em;
-}
+     margin: 1% 2%;
+     font-size: 1.4em;
+  }
 
-   body.front .l-region--branding img {
-      display:none;
-    }
+  body.front .l-region--branding img {
+     display:none;
+  }
 
   .l-content {
     @include grid-span(6,1);
@@ -126,6 +124,5 @@ ul.breadcrumb {
   .field--name-body p {
    margin: 1% 2%;
    font-size: 1.8em;
-}
-
+  }
 }
