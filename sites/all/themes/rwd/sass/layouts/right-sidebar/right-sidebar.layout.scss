@@ -10,7 +10,6 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-
 .l-page {
   margin: 0 auto;
   @include breakpoint($tab,true) {
@@ -83,6 +82,12 @@ ul.breadcrumb {
 
 .footer p {
    margin: 1% 2%;
+}
+
+.my-portfolio{
+  margin-left: 2.5em;
+  margin-right:2.5em;
+  margin-bottom:2em;
 }
 
 .video-container, .map-container {

@@ -311,18 +311,22 @@ h3 {
 /* line 62, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .home-content {
   float: left;
-  max-width: 100%;
   width: 40em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  max-width: 100%;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   margin-top: -30em;
   color: #fff; }
 
 /* line 72, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.home-content a {
+  color: #fff; }
+
+/* line 76, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-region--branding {
   clear: both; }
 
-/* line 76, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 80, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 h1 {
   margin: auto;
   text-align: center;
@@ -332,36 +336,36 @@ h1 {
   height: 1.8em;
   padding: 0.5em; }
 
-/* line 86, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 90, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 ul.breadcrumb {
   display: none; }
 
-/* line 90, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 94, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 0.9em;
   line-height: 1.2; }
 
-/* line 96, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 100, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .footer p {
   margin: 0% 5%; }
 
-/* line 102, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 106, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-content-home {
   background-color: #fce7ca;
   height: 22em; }
 
-/* line 107, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 111, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 body.front .l-region--branding img {
   display: block; }
 
-/* line 111, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 115, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.2em;
   line-height: 1.2; }
 
-/* line 120, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+/* line 124, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .field--name-body p {
   margin: 0% 5%;
   font-size: 1.8em;
